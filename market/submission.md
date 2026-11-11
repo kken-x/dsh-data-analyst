@@ -8,6 +8,7 @@ Open Plugin Market (`https://dshopen.org`) and for the npm release.
 | Field | Value |
 | --- | --- |
 | npm package | `dsh-data-analyst` |
+| Display name | Data lens / 数据透镜 |
 | Version | `0.1.0` |
 | License | MIT |
 | Category | `tools` |
@@ -50,7 +51,7 @@ On a clean profile:
 ## Submission issue fields
 
 - **Plugin name**: `dsh-data-analyst`
-- **Title**: Data analyst / 对话式数据分析师
+- **Title**: Data lens / 数据透镜
 - **Repository**: `<GITHUB_REPOSITORY_URL>`
 - **npm**: `https://www.npmjs.com/package/dsh-data-analyst`
 - **License**: MIT

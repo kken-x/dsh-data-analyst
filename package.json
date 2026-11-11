@@ -1,7 +1,7 @@
 {
   "name": "dsh-data-analyst",
   "version": "0.1.0",
-  "description": "Conversational data analyst for DeepSeek Harness: natural-language question to read-only SQL, inline chart, and a safety-first audit trail.",
+  "description": "Data lens (数据透镜): a conversational, read-only data analyst for DeepSeek Harness — natural-language question to validated SQL, inline chart, and an audit trail.",
   "type": "module",
   "license": "MIT",
   "author": "xsq",
