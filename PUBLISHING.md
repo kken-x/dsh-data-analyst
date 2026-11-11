@@ -1,12 +1,22 @@
 # Publishing
 
-The package is publish-ready except for npm authentication. The public source
-repository is `https://github.com/kken-x/dsh-data-analyst`.
+The public source repository is
+`https://github.com/kken-x/dsh-data-analyst`. The market submission issue is
+open at `https://github.com/polang233/dsh-plugin-index/issues/429`; listing is
+pending maintainer review.
 
-## 1. Publish to npm
+## 1. GitHub source (done)
 
-Use the public registry explicitly; the local environment may default to a
-mirror that cannot accept publishes.
+- Repository: `https://github.com/kken-x/dsh-data-analyst`
+- Release tag: `v0.1.0`
+- Fixed source commit is recorded in [market/issue.md](market/issue.md)
+- Market listing issue: `#429`
+
+## 2. npm (still pending)
+
+The package is publish-ready except for npm authentication. Use the public
+registry explicitly; the local environment may default to a mirror that cannot
+accept publishes.
 
 ```bash
 npm login --registry=https://registry.npmjs.org/
@@ -20,32 +30,26 @@ If CI owns the token:
 NODE_AUTH_TOKEN=... npm publish --access public --registry=https://registry.npmjs.org/
 ```
 
+After npm is public, add the npm URL as a comment on issue `#429` so the
+listing can point at the npm version.
+
 ## 3. Verify installability
 
-In a clean profile:
+From the fixed Git commit/tag:
 
 ```bash
-dsh plugin --profile desktop add dsh-data-analyst
+dsh plugin --profile <profile> add github:kken-x/dsh-data-analyst
 ```
 
-Then install it from the market UI or plugin manager, add a read-only
-connection, and ask one analysis question. Confirm the inline chart and an
-`audit.jsonl` record.
+Or from the market/plugin manager once the listing is approved. Then add a
+read-only connection and ask one analysis question; confirm the inline chart
+and an `audit.jsonl` record.
 
-## 4. Submit the listing
-
-Open the Open Plugin Market submission issue:
-
-https://github.com/polang233/dsh-plugin-index/issues/new?template=plugin-add.yml
-
-Use the fields in [market/submission.md](market/submission.md). Attach the
-icon (`icon.svg`) and point at the npm version.
-
-## 5. Tag the release
+## 4. Tag the release
 
 ```bash
 git tag v0.1.0
-git push origin main --tags
+git push origin v0.1.0
 ```
 
 ## Local install alternative
@@ -56,5 +60,5 @@ The current profile already links this directory:
 plugin_manager install_bundle target="D:\DeepSeek Harness\dsh-data-analyst"
 ```
 
-A local directory install is not a market release; it does not satisfy the
-public npm/repository requirement.
+A local directory install is not a market release; the public repository and
+the submission issue are the review artifacts.

@@ -3,6 +3,11 @@
 This file is the copy-ready checklist for listing `dsh-data-analyst` in the
 Open Plugin Market (`https://dshopen.org`) and for the npm release.
 
+**Status:** submitted as issue
+[#429](https://github.com/polang233/dsh-plugin-index/issues/429), pending
+maintainer review. Source: `https://github.com/kken-x/dsh-data-analyst`
+(tag `v0.1.0`). npm publication is still pending npm credentials.
+
 ## Package facts
 
 | Field | Value |

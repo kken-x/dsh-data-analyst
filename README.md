@@ -6,6 +6,10 @@
 
 ![插件图标](icon.svg)
 
+- 源码：<https://github.com/kken-x/dsh-data-analyst>
+- 市场收录申请：[Issue #429](https://github.com/polang233/dsh-plugin-index/issues/429)（审核中）
+- npm：尚未发布（等待 npm 凭据）；审核期间可使用固定 Git tag `v0.1.0`
+
 ## 预览
 
 插件自带的 SVG 引擎直接输出可嵌入对话的图表（示例数据：`examples/demo.sqlite`）：
