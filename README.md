@@ -6,6 +6,14 @@
 
 ![插件图标](icon.svg)
 
+## 预览
+
+插件自带的 SVG 引擎直接输出可嵌入对话的图表（示例数据：`examples/demo.sqlite`）：
+
+![月度收入趋势](docs/preview-line.png)
+
+![收入构成环形图](docs/preview-donut.png)
+
 ## 为什么是“分析闭环”
 
 传统做法需要用户或模型手动串联多个工具：先查 schema，再写 SQL，再执行，再决定图表，再渲染。`db_analyze` 把这五步收进一个入口：

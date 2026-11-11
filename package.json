@@ -36,6 +36,7 @@
     "lib/**/*.js",
     "locale/*.json",
     "icon.svg",
+    "docs/*.png",
     "README.md",
     "SECURITY.md",
     "LICENSE",
