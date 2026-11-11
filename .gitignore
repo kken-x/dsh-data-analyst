@@ -6,4 +6,8 @@ node_modules/
 tmp-*
 screen*.png
 live-*.png
+gh-device*.png
+npm-login-screen*.png
+npm-login-*.png
+*.tmp.png
 .dsh/

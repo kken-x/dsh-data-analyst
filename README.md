@@ -34,7 +34,7 @@
 ### 本地目录安装
 
 ```bash
-git clone <this-repository> dsh-data-analyst
+git clone https://github.com/kken-x/dsh-data-analyst.git dsh-data-analyst
 cd dsh-data-analyst
 npm install
 ```

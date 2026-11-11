@@ -1,22 +1,9 @@
 # Publishing
 
-The package is publish-ready except for two account-owned values: the public
-repository URL and npm authentication.
+The package is publish-ready except for npm authentication. The public source
+repository is `https://github.com/kken-x/dsh-data-analyst`.
 
-## 1. Add the repository URL
-
-Edit `package.json` and add the repository that will host this package:
-
-```json
-"repository": {
-  "type": "git",
-  "url": "git+https://github.com/<owner>/dsh-data-analyst.git"
-}
-```
-
-Market review checks that the listing name, package name, and repository agree.
-
-## 2. Publish to npm
+## 1. Publish to npm
 
 Use the public registry explicitly; the local environment may default to a
 mirror that cannot accept publishes.

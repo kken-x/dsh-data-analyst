@@ -15,7 +15,7 @@ Open Plugin Market (`https://dshopen.org`) and for the npm release.
 | DSH range | `>=0.2.0-rc.1 <0.3.0-0` |
 | Node range | `>=22.19` |
 | Host + Client | yes (inline chart tool cards) |
-| Repository | `<GITHUB_REPOSITORY_URL>` (fill before submission) |
+| Repository | `https://github.com/kken-x/dsh-data-analyst` |
 
 ## Short description
 
@@ -52,7 +52,7 @@ On a clean profile:
 
 - **Plugin name**: `dsh-data-analyst`
 - **Title**: Data lens / 数据透镜
-- **Repository**: `<GITHUB_REPOSITORY_URL>`
+- **Repository**: `https://github.com/kken-x/dsh-data-analyst`
 - **npm**: `https://www.npmjs.com/package/dsh-data-analyst`
 - **License**: MIT
 - **Category**: Tools
@@ -68,12 +68,10 @@ On a clean profile:
 
 ## Blocking values
 
-Fill these before opening the market issue:
-
-1. `GITHUB_REPOSITORY_URL` — a public repository with this source and a
-   matching `repository` field in `package.json`.
+1. `GITHUB_REPOSITORY_URL` — now `https://github.com/kken-x/dsh-data-analyst`.
 2. npm authentication — `npm login` or `NODE_AUTH_TOKEN`, then
    `npm publish --access public --registry=https://registry.npmjs.org/`.
 
-The plugin is already installed and verified locally. Publishing is the only
-step that needs account credentials.
+The plugin is already installed and verified locally. The GitHub source is
+being pushed as a fixed-commit fallback for market review; npm publishing
+still needs an npm account token.
