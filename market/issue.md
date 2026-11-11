@@ -1,10 +1,8 @@
 ### 插件地址 / Plugin link
 
-https://github.com/kken-x/dsh-data-analyst
-
-Tag: `v0.1.0`
-
-npm: <https://www.npmjs.com/package/dsh-data-analyst> (version `0.1.0`)
+**npm**: https://www.npmjs.com/package/dsh-data-analyst (version `0.1.0`)  
+**源码**: https://github.com/kken-x/dsh-data-analyst (tag `v0.1.0`)  
+**Release**: https://github.com/kken-x/dsh-data-analyst/releases/tag/v0.1.0
 
 ### 简短说明 / Summary
 
@@ -29,7 +27,7 @@ npm: <https://www.npmjs.com/package/dsh-data-analyst> (version `0.1.0`)
 - 兼容范围：DSH `>=0.2.0-rc.1 <0.3.0-0`；Node `>=22.19`。
 - 已验证环境：DSH `0.2.2-rc.1`，Windows 11，Node `22.20.0`。
 - 验证：`npm test` 20/20；实际模型生成 SQL、SQLite 执行、自动选图、图表 HTTP 路由 `200 image/svg+xml`、Client toolview 注册均通过；危险 SQL（多语句 / DELETE / 锁定读）被拒绝。
-- 安装（Git 提交）：`dsh plugin --profile <profile> add github:kken-x/dsh-data-analyst`
-- 收录后 npm 版本可用时会同步更新条目；如必须等待 npm 公开版本，请告知，我可在此 issue 补充 npm 地址。
+- 安装：`dsh plugin --profile <profile> add dsh-data-analyst`
+- npm 包已公开；可通过 `npm view dsh-data-analyst version` 验证。
 
 感谢审核！

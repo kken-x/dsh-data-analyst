@@ -7,7 +7,11 @@ tmp-*
 screen*.png
 live-*.png
 gh-device*.png
+gh-refresh*.png
 npm-login-screen*.png
 npm-login-*.png
+npm-token*.png
+npm-staged*.png
+npm-package*.png
 *.tmp.png
 .dsh/
