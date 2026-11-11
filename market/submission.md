@@ -6,7 +6,8 @@ Open Plugin Market (`https://dshopen.org`) and for the npm release.
 **Status:** submitted as issue
 [#429](https://github.com/polang233/dsh-plugin-index/issues/429), pending
 maintainer review. Source: `https://github.com/kken-x/dsh-data-analyst`
-(tag `v0.1.0`). npm publication is still pending npm credentials.
+(tag `v0.1.0`). npm: `https://www.npmjs.com/package/dsh-data-analyst`
+(version `0.1.0`).
 
 ## Package facts
 
@@ -71,12 +72,12 @@ On a clean profile:
   database; four tools exercised, chart route returns `image/svg+xml`, Client
   slot registrations confirmed.
 
-## Blocking values
+## References
 
-1. `GITHUB_REPOSITORY_URL` — now `https://github.com/kken-x/dsh-data-analyst`.
-2. npm authentication — `npm login` or `NODE_AUTH_TOKEN`, then
-   `npm publish --access public --registry=https://registry.npmjs.org/`.
+1. Repository: `https://github.com/kken-x/dsh-data-analyst`
+2. npm: `https://www.npmjs.com/package/dsh-data-analyst`
+3. Release: `https://github.com/kken-x/dsh-data-analyst/releases/tag/v0.1.0`
+4. Market issue: `https://github.com/polang233/dsh-plugin-index/issues/429`
 
-The plugin is already installed and verified locally. The GitHub source is
-being pushed as a fixed-commit fallback for market review; npm publishing
-still needs an npm account token.
+The plugin is installed and verified locally; npm `0.1.0` is published; the
+GitHub source and fixed tag remain available as a fallback for market review.
