@@ -2,7 +2,7 @@
 
 https://github.com/kken-x/dsh-data-analyst
 
-固定提交 / fixed commit: `6af03f8331d77592f5e580df1a7fafa51046d8b2`  
+固定提交 / fixed commit: `4c944760b98074c30d7b43246d7274d7dda2a492`  
 Tag: `v0.1.0`
 
 > npm 包尚未发布（当前环境没有 npm 发布凭据），因此按贡献指南申请 **固定 Git 提交** 收录。源码、`cordis.patch.yml`、Host/Client 入口和许可证均已在仓库中就绪。
