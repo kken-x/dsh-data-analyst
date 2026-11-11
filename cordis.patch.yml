@@ -1,0 +1,18 @@
+# dsh-data-analyst bundle layer: one host row owns the four read-only tools,
+# the audit writer, and the private SVG chart route. The same package also
+# exports a browser module that renders those tool calls as inline chart cards.
+- insert:
+    - id: data-analyst
+      name: 'dsh-data-analyst'
+      config:
+        connections: []
+        maxRows: 500
+        timeoutMs: 30000
+        audit:
+          enabled: true
+        sqlGeneration:
+          enabled: true
+        chart:
+          width: 960
+          height: 560
+          theme: light

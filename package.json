@@ -1,0 +1,67 @@
+{
+  "name": "dsh-data-analyst",
+  "version": "0.1.0",
+  "description": "Conversational data analyst for DeepSeek Harness: natural-language question to read-only SQL, inline chart, and a safety-first audit trail.",
+  "type": "module",
+  "license": "MIT",
+  "author": "xsq",
+  "engines": {
+    "node": ">=22.19",
+    "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "data-analysis",
+    "analytics",
+    "sql",
+    "sqlite",
+    "postgresql",
+    "mysql",
+    "chart",
+    "visualization"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "lib/**/*.js",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "SECURITY.md",
+    "LICENSE",
+    "examples/demo.sqlite",
+    "examples/seed-demo.mjs"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "dependencies": {
+    "@deepseek-ai/schemastery": "^3.19.0",
+    "mysql2": "^3.24.6",
+    "pg": "^8.16.3"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "seed": "node examples/seed-demo.mjs"
+  }
+}

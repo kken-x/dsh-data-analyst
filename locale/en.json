@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Data analyst",
+    "description": "Ask a database a question in plain language. Generates one read-only SELECT, runs it, picks the right chart, and renders it inline with an audit trail."
+  }
+}

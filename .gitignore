@@ -1,0 +1,9 @@
+node_modules/
+*.tgz
+*.log
+*.sqlite-wal
+*.sqlite-shm
+tmp-*
+screen*.png
+live-*.png
+.dsh/
